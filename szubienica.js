@@ -11,8 +11,8 @@ const kategoria = [
 ]
 const przyslowia = [
 	"co dwie głowy to nie jedna",
-	"Bez pracy nie ma kołaczy",
-	"Bez pracy nie ma kołaczy",
+	"bez pracy nie ma kołaczy",
+	"bez pracy nie ma kołaczy",
 	"gdzie diabeł nie może tam babę pośle",
 	"dla kota za dużo dla psa za mało",
 	"chleb pracą nabyty bywa smaczny i syty",
@@ -40,10 +40,12 @@ const tytulFilmu = [
 	"spiderman",
 	"harry potter i komnata tajemnic",
 	"czterej pancerni i pies",
-	"czterej pancerni i pies",
+	"iniemamocni",
 	"cześć tereska",
 	"dziennik bridget jones",
-	"tytanic"
+	"tytanic",
+	"kler",
+	"transporter"
 ]
 const znanaOsoba = [
 	"Alexander Graham Bell",
@@ -67,7 +69,13 @@ const aktorAktorka = [
 	"Bogusław Linda",
 	"Jean Claude Van Damme",
 	"Keanu Reeves",
-	"Clint Eastwood"
+	"Clint Eastwood",
+	"Marcin Dorociński",
+	"Piotr Fornczewski",
+	"Cezary Pazura",
+	"Olaf Lubaszenko",
+	"Katarzyna Figura",
+	"Joanna Brodzik"
 ]
 
 //wybór kategorii i losowego hasła z danej kategorii
