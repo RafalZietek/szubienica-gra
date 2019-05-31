@@ -1,0 +1,139 @@
+﻿body {
+    background-color: #000000;
+    color: lightgray;
+    font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+	
+}
+h1 {
+	text-align:center;
+	margin-bottom: 0;
+	font-size: 2.5rem;
+}
+#zasady {
+	text-align: right;
+	margin-top: 0;
+	font-size: 1rem;
+	cursor: pointer;
+	position:relative;
+}
+
+.tooltiptext {
+	position: absolute;
+	visibility: hidden;
+	width: 250px;
+	background-color: #555;
+	color: #fff;
+	border-radius: 6px;
+	padding: 5px 0;
+	margin-top:5%;
+	margin-left: -30%;
+	text-align: center;
+}
+#zasady:hover .tooltiptext {
+	visibility: visible;
+}
+#pojemnik, #container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+	position: relative;
+}
+#plansza {
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 48px;
+    text-align: center;
+    min-height: 60px;
+}
+
+.szubienica {
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+	display: none;
+}
+
+#alfabet {
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 280px;
+}
+.zegar {
+	width: 35px;
+    height: 35px;
+    text-align: center;
+	border: 3px solid gray;
+	border-radius: 15px;
+	padding: 5px;
+	position: absolute;
+	top: 30px;
+	right: 100px;
+	display: none;
+}
+.litera {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.litera:hover {
+    background-color: #222222;
+    color: white;
+    border: 3px solid white;
+}
+.reset {
+    color: green;
+    cursor: pointer;
+    font-size: 48px;
+}
+.reset:hover {
+   color: white;
+}
+p {
+font-size: 1.5rem;
+}
+footer p {
+	font-size: 1rem;
+}
+.koncowy {
+	color: red;
+	border: 3px solid red;
+} 
+.startButton {
+	display: block;
+	padding: 10px;
+	margin-bottom: 15px;
+	width: 150px;
+	border-radius: 10px;
+	font-size: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ukryjButton {
+	display: none;
+}
+.kategoria {
+	display: none;
+}
+.pokazKategoria, .pokazZegar, .pokazSzubienica {
+	display: block;
+}
+
+/*
+plansza::after {
+	content: '\A';
+	white-space: pre;
+	/*pseudoklasa, w tym przykładzie after dodaje enter na końcu spana w widoku pionowym
+}*/
+
